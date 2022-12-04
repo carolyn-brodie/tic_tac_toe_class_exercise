@@ -9,7 +9,7 @@ POSITION_RANGES = [[[1, 199], [201, 399], [401, 599]], [[1, 199], [201, 399], [4
 ##Comment
 class IntroView(arcade.View):
     def on_show_view(self):
-        arcade.set_background_color(arcade.color.LIGHT_BLUE)
+        arcade.set_background_color(arcade.color.LIGHT_PASTEL_PURPLE)
 
     def on_draw(self):
         self.clear()
